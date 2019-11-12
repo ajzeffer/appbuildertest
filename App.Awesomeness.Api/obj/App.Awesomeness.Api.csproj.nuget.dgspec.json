@@ -1,0 +1,180 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/azeffer/git/sandbox/dotnet-creator-app/out/App.Awesomeness.Api/App.Awesomeness.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/azeffer/git/sandbox/dotnet-creator-app/out/App.Awesomeness.Api/App.Awesomeness.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/azeffer/git/sandbox/dotnet-creator-app/out/App.Awesomeness.Api/App.Awesomeness.Api.csproj",
+        "projectName": "App.Awesomeness.Api",
+        "projectPath": "/Users/azeffer/git/sandbox/dotnet-creator-app/out/App.Awesomeness.Api/App.Awesomeness.Api.csproj",
+        "packagesPath": "/Users/azeffer/.nuget/packages/",
+        "outputPath": "/Users/azeffer/git/sandbox/dotnet-creator-app/out/App.Awesomeness.Api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/azeffer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/azeffer/git/sandbox/dotnet-creator-app/out/App.Awesomeness.Core/App.Awesomeness.Core.csproj": {
+                "projectPath": "/Users/azeffer/git/sandbox/dotnet-creator-app/out/App.Awesomeness.Core/App.Awesomeness.Core.csproj"
+              },
+              "/Users/azeffer/git/sandbox/dotnet-creator-app/out/App.Awesomeness.Infrastructure/App.Awesomeness.Infrastructure.csproj": {
+                "projectPath": "/Users/azeffer/git/sandbox/dotnet-creator-app/out/App.Awesomeness.Infrastructure/App.Awesomeness.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/azeffer/git/sandbox/dotnet-creator-app/out/App.Awesomeness.Core/App.Awesomeness.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/azeffer/git/sandbox/dotnet-creator-app/out/App.Awesomeness.Core/App.Awesomeness.Core.csproj",
+        "projectName": "App.Awesomeness.Core",
+        "projectPath": "/Users/azeffer/git/sandbox/dotnet-creator-app/out/App.Awesomeness.Core/App.Awesomeness.Core.csproj",
+        "packagesPath": "/Users/azeffer/.nuget/packages/",
+        "outputPath": "/Users/azeffer/git/sandbox/dotnet-creator-app/out/App.Awesomeness.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/azeffer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/azeffer/git/sandbox/dotnet-creator-app/out/App.Awesomeness.Infrastructure/App.Awesomeness.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/azeffer/git/sandbox/dotnet-creator-app/out/App.Awesomeness.Infrastructure/App.Awesomeness.Infrastructure.csproj",
+        "projectName": "App.Awesomeness.Infrastructure",
+        "projectPath": "/Users/azeffer/git/sandbox/dotnet-creator-app/out/App.Awesomeness.Infrastructure/App.Awesomeness.Infrastructure.csproj",
+        "packagesPath": "/Users/azeffer/.nuget/packages/",
+        "outputPath": "/Users/azeffer/git/sandbox/dotnet-creator-app/out/App.Awesomeness.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/azeffer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
